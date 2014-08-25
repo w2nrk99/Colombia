@@ -1,0 +1,384 @@
+body
+{
+	padding: 0px;
+	margin: 0;
+	/*background: url('../img/bg4.jpg') fixed no-repeat center top #84DBFD;
+	background-repeat: no-repeat;
+     height: 600px;*/
+     background: url('../img/bg10.jpg') fixed no-repeat center top #84DBFD ;
+
+	
+	
+}
+#adds
+{
+float: right;
+height:700px;
+width:150px;
+
+margin-top:700px;
+}
+#adds1
+{
+float: left;
+height:700px;
+width:150px;
+
+margin-top:700px;
+}
+
+
+#main
+{   
+ 
+	width: 1000px;
+	
+	
+	margin: 0px auto;
+	
+	/*background-color: grey;*/
+	min-height: 1000px;
+	position: relative;
+	
+
+}
+#logo
+{
+	
+	top: -10px;
+    height: 130px;
+    width: 420px;
+    
+    background: url('../img/logo.png');
+    background-size: 100% 100%;
+box-shadow: rgba(0,0,0,0.5) 10px 10px 10px 10px;
+border-radius:10px;
+    
+    float: left;
+	
+}
+#header
+{
+	height: 200px;
+	width: 100%;
+	margin-top: 60px;
+	/*background-color:red;
+	border: 1px solid black;*/
+	opacity: 1;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+
+
+	
+
+	
+	
+	
+
+	
+
+
+}
+#nav
+{  
+	background-image: url('../img/grad.png') ;
+	background-repeat: repeat-x;
+	height: 50px;
+    width: 450px;
+    border: 1em solid black inset;
+    float: right;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+    opacity: 0.6;
+	
+	
+}
+#nav li 
+{
+	display: inline;
+	height: 10px;
+	width: 20px;
+	
+    font-family: Futura, Tahoma, sans-serif;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px 5px;
+    /*background-color: #cc0323;*/
+    top: 10px;
+    
+
+}
+.pics {  
+	margin-top: -5px;
+        height:  300px;  
+        width:   1000px;  
+        
+        
+        border-collapse: collapse;
+        border-bottom-style: groove;
+        border-top-style: groove;
+        border-bottom-width: 10px;
+        border-top-width: 10px;
+        border-bottom-color: white;
+        border-top-color: white;
+		box-shadow: rgba(0,0,0,0.7) 10px 10px 10px 10px;
+		
+
+        
+
+               } 
+ 
+        .pics img {  
+   
+    width:  1000px; 
+    height: 300px; 
+    top:  0; 
+    left: 0 ;
+    margin: 3px 3px 3px 3px;
+
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+   
+                    }
+
+
+
+#content
+{
+
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+	margin-top: 25px;
+	border-radius: 2em;
+	opacity: 0.8;
+	border-style: inset;
+}
+#text
+{
+	background-color: white;
+	
+	height: 350px;
+	width: 600px;
+	float: left;
+	margin-top: 10px;
+	font-family: verdana;
+	font-style:inherit;
+	text-align: center;
+	margin-left: 25px;
+
+}
+#contact
+{
+	background: url('../img/cnt.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 350px;
+	width: 300px;
+	border: 1px solid black;
+	float: right;
+	margin-top: 90px;
+	margin-right: 5px;
+	border-radius: 4em 0 4em 0;
+box-shadow: rgba(0,0,0,0.5) 10px 10px 10px 10px ;
+	
+	border-style: inset;
+	padding: 0 10px 0 10px;
+
+}
+.three
+{
+	background-image: url('../img/grad.png') ;
+	background-repeat: repeat-x;
+	opacity: 0.2;
+	
+	float: left;
+	height: 400px;
+	width: 300px;
+	margin-left: 20px;
+	font-weight: 100;
+	margin-top: 100px;
+	text-align: center;
+	display: list-item;
+	border-radius: 8px;
+	opacity: 1;
+box-shadow: rgba(0,0,0,0.5) 10px 10px 10px 10px ;
+	font-family:Segoe UI , Verdana;
+
+
+}
+
+ a 
+{
+	text-decoration: none;
+	color: black;
+
+}
+#places
+{
+	background-image: url('../img/grad.png') ;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 250px;
+	background-color: white;
+	margin-top: 10px;
+	border-radius: 8px;
+	opacity: 0.9;
+
+}
+#footer
+{
+	width: 100%;
+	height: 130px;
+	background-color: #84DBF7D;
+	opacity: 0.9;
+	margin-top: 10px;
+	border-radius: 8px;
+	text-align: center;
+
+}
+h1
+{
+	font-style: normal;
+	font-family: Gabriola , Verdana;
+	font-weight: 500;
+	color:black;
+	font-size: 40px;
+
+}
+h2
+{
+	font-style:normal;
+	font-family: Georgia , Verdana;
+	font-weight: 300;
+	color:black;
+}
+#phn
+{
+	height: 40px;
+	width: 200px;
+	float: right;
+	background-color: grey;
+	margin-top:-20px;
+}
+#hdr1
+{
+	width: 100%;
+	height: 50px;
+	
+}
+#contact img
+{
+	 width:300px;
+	 height:400px;
+	 margin-top: 10px;
+	 margin-left: 10px;
+}
+
+#sp 
+{
+	margin-top: 90px;
+text-align: center;
+background: url('../img/cu.jpg');
+	background-size: 100% 100%;
+	float: right;
+	margin-right: 20px;
+	height: 100px;
+	width: 300px;
+
+
+}
+#signup
+{
+	
+	background: url('../img/contact1.jpg');
+	background-size: 100% 100%;
+	
+	float: left;
+	height: 300px;
+	width: 300px;
+	margin-left: 20px;
+	font-weight: 100;
+	margin-top: -20px;
+	text-align: center;
+	display: list-item;
+	
+	opacity: 1;
+	font-family: Segoe UI , Verdana;
+	border-left: 1px solid black;
+	border-collapse;
+	border-spacing: 2px;
+}
+table 
+{
+	margin: 10px auto;
+
+}
+td
+{
+	font-style: normal;
+	font-family: Gabriola , Verdana;
+	font-weight: 700;
+	color:black;
+	font-size: 24px;
+}
+#sub_heading
+{
+
+	font-style: normal;
+	font-family: Gabriola , Verdana;
+	font-weight: 700;
+	color:black;
+	font-size: 40px;
+}
+p
+{
+  font-style: normal;
+    font-family: Gabriola , Verdana;
+    font-weight: 500;
+    color:black;
+    font-size: 20px;
+    text-align: center;  
+}
+#places li
+{
+	display: inline;
+	height: 10px;
+	width: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	font-family: Gabriola  , Verdana;
+         list-style:none;
+         padding-left:0;
+         margin-left=0;
+list-style-type: none;
+}
+spam
+{
+	font-size: 30px;
+	font-family: Gabriola , Verdana;
+}
+h3
+{
+	font-style:normal;
+	font-family: Segoe UI , Verdana;
+	font-weight: 400;
+	font-size: 18px;
+	color:black;
+	text-decoration: none;
+}
+#footer h4
+{
+font-size: 13px;
+font-weight: 520;
+margin-top: -8px;
+
+}
+#footer h5
+{
+	font-size: 12px;
+font-weight: 300;
+margin-top: -10px;
+
+}
